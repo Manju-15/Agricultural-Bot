@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Cards</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/team.css') }}">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/team.css') }}">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <h1 class="heading">Meet Our Team</h1>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/4d/6d/00/4d6d00dd51e8f15b359d4face6f07040.jpg" alt="card background" class="card-img">
+                        <img src="{{ url_for('static',filename='images/padmaja.jpeg')}}" alt="profile image" class="profile-img">
+                        <h1>PADMAJA S</h1>
+                        <p class="job-title">Documentation & Backend Connectivity</p>
+                        <p class="about">
+                                        Worked on documentation of Farm 
+                                        AI-BOT and connecting the frontend web 
+                                        page with backend model by using Flask
+                        </p>
+                        <a href="/padmaja" class="btn">Profile</a>
+                        <ul class="social-media">
+                            <li><a href="https://www.linkedin.com/in/padmaja-srinivasan-766b5b1a3"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://instagram.com/good_soul_sweety?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/4d/6d/00/4d6d00dd51e8f15b359d4face6f07040.jpg" alt="card background" class="card-img">
+                        <img src="{{ url_for('static',filename='images/photo.jpg')}}" alt="profile image" class="profile-img">
+                        <h1>SINEGALATHA B</h1>
+                        <p class="job-title">Machine Learning</p>
+                        <p class="about">
+                            Developed a Farm AI ChatBot 
+                            System  using Neural Network
+							technique and Bag of Words method
+                        </p>
+                        <a href="/sinegalatha" class="btn">Profile</a>
+                        <ul class="social-media">
+                            <li><a href="https://www.linkedin.com/in/sinegalatha-balusamy-73a7261a1/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://instagram.com/sinegalatha_balusamy?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/4d/6d/00/4d6d00dd51e8f15b359d4face6f07040.jpg" alt="card background" class="card-img">
+                        <img src="{{ url_for('static',filename='images/saaru.jpg')}}" alt="profile image" class="profile-img">
+                        <h1>SAARUMATHI R</h1>
+                        <p class="job-title">web developer</p>
+                        <p class="about">
+                            Developed a effective Graphical User 
+                            Interface for Farm AI-BOT using HTML 
+                            ,CSS and linked G-mail account to collect user feedback.
+                        </p>
+                        <a href="/saaru" class="btn">Profile</a>
+                        <ul class="social-media">
+                            <li><a href="https://www.linkedin.com/in/saarumathi-r-0520641b4"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://instagram.com/saarumathi_ramadurai?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="saarumathiramadurai@gmail.com"><i class="fab fa-google-plus-square"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/4d/6d/00/4d6d00dd51e8f15b359d4face6f07040.jpg" alt="card background" class="card-img">
+                        <img src="{{ url_for('static',filename='images/manju.jpeg')}}" alt="profile image" class="profile-img">
+                        <h1>MANJU S</h1>
+                        <p class="job-title">Frontend Backend Connectivity</p>
+                        <p class="about">
+                            Worked on connecting the frontend web page with backend 
+                            Farm AI-BOT Neural Network model by using Flask
+                        </p>
+                        <a href="/manju" class="btn">Profile</a>
+                        <ul class="social-media">
+                            <li><a href="http://www.linkedin.com/in/manju09"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://instagram.com/its_manju_09?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        </ul>
+                </div>
+
+            </div>
+        </section>
+        	
+
+    </body>
+    </html>    

@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1563201515-adbe35c669c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFncmljdWx0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    
+   
+
+
+    animation-name: animate;
+    animation-direction:alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFncmljdWx0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60");
+    }
+    20%{
+        background-image: url("https://media.istockphoto.com/photos/tractor-spraying-young-corn-with-pesticides-picture-id1224290959?b=1&k=20&m=1224290959&s=170667a&w=0&h=Xj6RbU61jbDESRjNdVHQr9XRZ4QKgpeXG2Z8WeNjJzg=");
+    }
+    40%{
+        background-image: url("https://images.unsplash.com/photo-1560493676-04071c5f467b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    }
+    60%{
+        background-image: url("https://images.unsplash.com/photo-1586771107445-d3ca888129ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    }
+    80%{
+        background-image: url("https://images.unsplash.com/photo-1559884743-74a57598c6c7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWdyaWN1bHR1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    }
+    100%{
+        background-image: url("https://media.istockphoto.com/photos/aerial-view-of-a-crop-duster-or-aerial-applicator-flying-low-and-picture-id1278640196?b=1&k=20&m=1278640196&s=170667a&w=0&h=7sZTxax01Y5GuAZGCwvHbQk8a2LAgZEIGsZl0S_nKt8=");
+    }
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+
+
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+
+
+.navbar ul{
+    float: right;
+    margin-right: 0px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 7px;
+    display: inline-block;
+    line-height: 0 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 14px;
+    transition: .4s;
+    font-family: 'Roboto',sans-serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+
+.bot{
+    width: 140px;
+    height: auto;
+    padding: 100px 700px;
+}
+
+.button{
+    
+}

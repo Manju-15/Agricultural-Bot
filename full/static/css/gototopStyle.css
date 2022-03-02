@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+}
+#topBtn{
+  position: fixed;
+  bottom: 18px;
+  right: 15px;
+  font-size: 25px;
+  width: 70px;
+  height: 70px;
+  background: rgb(72, 70, 235);
+  color: white;
+  cursor:pointer;
+  display: none;
+  border: none;
+  opacity:0.7;
+}

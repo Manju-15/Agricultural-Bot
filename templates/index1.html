@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Responsive contact form
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+       <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <!--alert message start
+        <div class="alert-success">
+            <span>Message Sent! Thank you for contacting us.</span>
+        </div>
+        <div class="alert-error">
+            <span>Something went wrong! Please try again.</span>
+        </div>
+        alert message end-->
+        <div class="contact-section">
+            <div class="contact-info">
+                <div><i class="fas fa-map-marker-alt"></i>M. Kumarasamy College Of Engineering,Karur,India</div>
+                <div><i class="fas fa-envelope"></i>contactourexpert@gmail.com</div>
+                <div><i class="fas fa-phone"></i>+91 7397579753</div>
+                <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+            </div>
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form class="contact" action="https://formspree.io/f/moqyrrkg" method="POST" >
+                    <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                    <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <input type="submit" name="submit" class="send-btn">
+                </form>
+
+            </div>
+        </div>
+    </body>
